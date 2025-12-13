@@ -1,0 +1,32 @@
+
+import java.util.Scanner;
+
+public class Treinamento05{
+
+
+    public static void main(String[] args) {
+        System.out.println("----------SISTEMA DE TRUE OR FALSE----------");
+        System.out.printf  ("true   && true = %s \n",  true && true); 
+        System.out.printf  ("false  && false = %s \n", false && false); 
+        System.out.println("--------------------------------------------");
+        System.out.printf  ("true   && false = %s \n", true && false); 
+        System.out.printf  ("false  && true = %s \n",  false && true);
+        System.out.println("--------------------------------------------");
+        System.out.printf  ("true   || true = %s \n",  true || true);
+        System.out.printf  ("false  || false = %s \n", false || false);
+        System.out.println("--------------------------------------------");
+        System.out.printf  ("true   || false = %s \n", true || false); 
+        System.out.printf  ("false  || true = %s \n",  false || true);
+        System.out.println("--------------------------------------------");
+        System.out.printf  ("!true = %s", !true);
+        System.out.println("");
+        System.out.printf  ("!false = %s", !false);
+        System.out.println("");
+        System.out.println("--------------------------------------------");
+
+     
+        
+    
+    }
+    
+}
